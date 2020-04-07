@@ -7,10 +7,6 @@ document.getElementById("TarjetaNoValida").style.display = 'none';
 let nombre= document.getElementById ("wname");
 let correo= document.getElementById ("email");
 
-
-
-
-
 //funcion y condicion para cambiar de pagina y traer nombre
 
 function siguiente() {
@@ -27,15 +23,25 @@ else{
     }
 }
 
-// Funciones para cambiar de pagina
+const email = document.getElementById("email");
+
+email.addEventListener("input", function (event) {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity("I am expecting an e-mail address!");
+  } else {
+    email.setCustomValidity("");
+  }
+});
 
 
-function volverVal() {
+// Funciones para cambiar y refrescar pagina
+function reload() {
   document.getElementById("TarjetaValida").style.display = 'none';
   document.getElementById("Portada").style.display='block';
+  
 };
 
-function volverNoValido() {
+function reload() {
   document.getElementById("TarjetaNoValida").style.display = 'none';
   document.getElementById("Portada").style.display='block';
 };
