@@ -2,13 +2,66 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width">
+    <title>Validacion Tarjeta </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+  <body>   
+ <div class= "col-md-8" >
+
+   
+
+ <! -- Ventana de Portada-->  
+  <div id="Portada">
+      <div class= "borde"> 
+        <h1> Validador de Tarjeta de Credito</h1>
+        <img src= "https://i.ibb.co/MZ3yfrH/Logo.png"></img>
+      <form >
+        <p> Ingrese sus datos </p><br>  
+        <input type="text" id="wname" placeholder="Ingrese Nombre"><br>
+        <input type="email" id="email" placeholder= "Ingrese Email"><br>
+      </form>
+        <input type="button" id= "next" onclick='siguiente()' value="Siguiente">
+        </div> 
+  </div>   
+
+<! -- Ventana de Validador-->
+  <div id="Validador">
+    <div class= "borde">
+      <h1> Validador de Tarjeta de Credito</h1>
+      <img src="https://i.ibb.co/MZ3yfrH/Logo.png"></img>
+      <form>
+        <p id="names"></p><br>    
+        <label for="numberCard">Ingrese Nº de Tarjeta</label><br>
+        <input type="text" inputmode="numeric" id="numberCard" maxlength="16" placeholder="1111-2222-3333-4444"><br>
+      </form>
+      <input type="submit" id= "validator" onclick= 'isValidCard()'value= "Validar">
+    </div>
+  </div>
+
+  </div>
+
+<! -- Ventana con mensaje de "Tu tarjeta es Valida"--> 
+  <div id="TarjetaValida">
+    <div class= "borde"> 
+      <h1>Validador de Tarjeta de Credito</h1>
+      <img src= "https://i.ibb.co/MZ3yfrH/Logo.png"></img>
+      <h2>Felicidades!.<br> Tu tarjeta es válida</h2>
+      <button id="volveralinicio" onclick='volverVal()' >Volver</button>
+    </div>
+  </div>   
+
+<! -- Ventana con mensaje de "Tu tarjeta NO es Valida"-->
+  <div id="TarjetaNoValida">
+    <div class= "borde"> 
+    <h1>Validador de Tarjeta de Credito</h1>
+    <img src= "https://i.ibb.co/MZ3yfrH/Logo.png"></img>
+    <h2>Lo sentimos.<br> Tu tarjeta NO es válida.<br> Vuelve a intentarlo</h2>
+    <button id="volveralinicio" onclick='volverNoValido()' >Volver</button>
+  </div>
+
+
+    <script src="index.js"></script>
+    <script src="validator.js"></script>
   </body>
 </html>
