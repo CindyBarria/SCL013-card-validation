@@ -1,3 +1,4 @@
+
 // Ocultar todo al cargar pagina
 document.getElementById("Portada").style.display = 'block';
 document.getElementById("Validador").style.display = 'none';
@@ -23,28 +24,16 @@ else{
     }
 }
 
-const email = document.getElementById("email");
-
-email.addEventListener("input", function (event) {
-  if (email.validity.typeMismatch) {
-    email.setCustomValidity("I am expecting an e-mail address!");
-  } else {
-    email.setCustomValidity("");
-  }
-});
-
-
 // Funciones para cambiar y refrescar pagina
 function reload() {
   document.getElementById("TarjetaValida").style.display = 'none';
   document.getElementById("Portada").style.display='block';
-  
+
 };
 
 function reload() {
   document.getElementById("TarjetaNoValida").style.display = 'none';
   document.getElementById("Portada").style.display='block';
 };
-
 
 

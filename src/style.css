@@ -1,65 +1,65 @@
 *{
-  margin:0 auto;
-  padding: 0;
-} 
+    margin:0 auto;
+    padding: 0;
+  } 
 
 
-body {
-    background: rgb(226, 229, 238);
-}
-img {
-  height: 24%;
-}
+  body {
+      background:  #6ba1e4;
+  }
+  img {
+    height: 24%;
+  }
 
-input {
-    display: block;
-    padding: 10px;
+  input {
+      display: block;
+      padding: 10px;
+      
     
-  
-}
- h1 {
-    color: #101356;
-    font-family: 'calibri';
-    font-size: 32px;
-    margin: 13px;
-}
-.borde {
-  text-align: center;
-  margin-top: 40px;
-  background: linear-gradient(to bottom, #655bff 0%, #6699ff 100%);
-  border: 5px solid #655bff;
-  width: 37%;
-  border-radius: 8%;
-  height: 443px;
-  display: block;
-}
-
-
- form {
+  }
+   h1 {
+    color: #fefeff;
+    font-family: auto;
+    font-size: 33px;
+    margin: 22px;
+  }
+  .borde {
+    text-align: center;
+    margin-top: 40px;
+    background: linear-gradient(to bottom, #463aff 0%, #05102b 100%);
+    border: 5px solid #2920ac;
+    width: 37%;
+    border-radius: 4%;
+    height: 464px;
     display: block;
-    color: white;
-    font-size: larger;
-    font-family: 'calibri';
- }
+  }
+  
 
-button, #next , #validator {
-    background: #5252b7;
-    height: 12%;
-    width: 23%;
-    border-radius: 10%;
+   form {
+      display: block;
+      color: white;
+      font-size: larger;
+      font-family: 'calibri';
+   }
+  
+  button, #next, #validar {
+      background: #5252b7;
+      height: 12%;
+      width: 23%;
+      border-radius: 10%;
+      color: white;
+  } 
+   
+  p {
     color: white;
-} 
- 
-p {
-  color: white;
-    font-size: larger;
-    font-family: 'calibri';
-}
+      font-size: larger;
+      font-family: 'calibri';
+  }
 
 h2 {
-  color: #101356;
-  font-family: 'calibri';
-  font-size: 36px;
-  margin: 13px;
+    color: #ffffff;
+    font-family: auto;
+    font-size: 36px;
+    margin: 13px;
 }
 
