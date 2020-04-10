@@ -86,8 +86,8 @@ function maskify() {
   }
   console.log (mascara)
   }
-    document.getElementById("tvalida").innerHTML="Felicidades! tu tarjeta N° " + mascara + " es Valida"
-    document.getElementById("tNovalida").innerHTML="Tu tarjeta N° " + mascara + " NO es Valida";
+    document.getElementById("tvalida").innerHTML="Felicidades! <br />" +  "tu tarjeta N° <br />" + mascara + "<br /> es Válida"
+    document.getElementById("tNovalida").innerHTML="Tu tarjeta N° <br />" + mascara + "<br /> NO es Válida";
 }; 
 
 
