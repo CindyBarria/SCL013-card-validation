@@ -5,18 +5,26 @@
 
 
   body {
-      background:  #6ba1e4;
+      background:  #add0facb;
   }
   img {
-    height: 24%;
+    margin-top: 4%;
+    height: 38%;
   }
 
-  input {
+  input,select {
       display: block;
-      padding: 10px;
-      
-    
+      padding: 10px; 
+      color : #414141;
   }
+  select {
+    width: 38%;
+    display: block;
+    margin-bottom: 4%;
+   
+  }
+
+
    h1 {
     color: #fefeff;
     font-family: auto;
@@ -26,12 +34,13 @@
   .borde {
     text-align: center;
     margin-top: 40px;
-    background: linear-gradient(to bottom, #463aff 0%, #05102b 100%);
-    border: 5px solid #2920ac;
+    background: linear-gradient(to bottom, #6d88ffea 0%, #001f2e 100%);
+    border: 0px solid #2920ac;
     width: 37%;
     border-radius: 4%;
     height: 464px;
     display: block;
+    box-shadow: 3px 3px 12px rgb(65, 65, 65);
   }
   
 
@@ -41,15 +50,30 @@
       font-size: larger;
       font-family: 'calibri';
    }
-  
+
   button, #next, #validar {
-      background: #5252b7;
+     text-decoration: none;
+      background-color: #5662b9;
       height: 12%;
       width: 23%;
-      border-radius: 10%;
+      border-radius: 12%;
+      border: 0px solid #1d1f78;
       color: white;
+      cursor: pointer;
+      transition-duration: 0.4s;
   } 
-   
+  button:hover {
+    color: #0016b0;
+    background-color: #929ad3;
+     }
+ #next:hover{
+    color: #0016b0;
+    background-color: #929ad3;
+     }
+ #validar:hover {
+    color: #0016b0;
+    background-color: #929ad3;
+     }
   p {
     color: white;
       font-size: larger;
@@ -58,8 +82,9 @@
 
 h2 {
     color: #ffffff;
-    font-family: auto;
-    font-size: 36px;
+    font: 150% sans-serif;
+    font-family: 'arial';
+    font-size: 32px;
     margin: 13px;
 }
 

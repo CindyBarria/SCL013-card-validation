@@ -9,17 +9,20 @@
   <body>   
  <div class= "col-md-8" >
 
-   
 
  <! -- Ventana de Portada-->  
   <div id="Portada">
       <div class= "borde"> 
-        <h1> Validador de Tarjeta de Credito</h1>
-        <img src= "https://i.ibb.co/MZ3yfrH/Logo.png"></img>
+        <img src= "https://i.ibb.co/M1HLp0C/LOGO-AMARILLO.png"></img>
       <form >
         <p> Ingrese sus datos </p><br>  
         <input type="text" id="wname" placeholder="Ingrese Nombre"><br>
-        <input type="email" id="email" placeholder= "Ingrese Email"><br>
+        <select id="selector" name="Tipo de Tarjeta" >
+        <option value=""selected disabled >Seleccione Tarjeta </option>
+        <option value="1">Mastercard 
+        <option value="2">Visa
+        <option value="3">American Express.
+        </select> 
       </form>
         <input type="button" id= "next" onclick='siguiente()' value="Siguiente">
         </div> 
@@ -28,8 +31,7 @@
 <! -- Ventana de Validador-->
   <div id="Validador">
     <div class= "borde">
-      <h1> Validador de Tarjeta de Credito</h1>
-      <img src="https://i.ibb.co/MZ3yfrH/Logo.png"></img>
+      <img src="https://i.ibb.co/M1HLp0C/LOGO-AMARILLO.png"></img>
       <form>
         <p id="names"></p><br>    
         <label for="numberCard">Ingrese Nº de Tarjeta</label><br>
@@ -44,8 +46,7 @@
 <! -- Ventana con mensaje de "Tu tarjeta es Valida"--> 
   <div id="TarjetaValida">
     <div class= "borde"> 
-      <h1>Validador de Tarjeta de Credito</h1>
-      <img src= "https://i.ibb.co/MZ3yfrH/Logo.png"></img>
+      <img src= "https://i.ibb.co/M1HLp0C/LOGO-AMARILLO.png"></img>
       <h2 id= "tvalida"></h2>
       <button id="volveralinicio" onclick='location.reload()' >Volver</button>
     </div>
@@ -54,14 +55,13 @@
 <! -- Ventana con mensaje de "Tu tarjeta NO es Valida"-->
   <div id="TarjetaNoValida">
     <div class= "borde"> 
-    <h1>Validador de Tarjeta de Credito</h1>
-    <img src= "https://i.ibb.co/MZ3yfrH/Logo.png"></img>
+    <img src= "https://i.ibb.co/M1HLp0C/LOGO-AMARILLO.png"></img>
     <h2 id= "tNovalida"></h2>
     <button id="volveralinicio" onclick='location.reload()' >Volver</button>
   </div>
 
 
     <script src="index.js"></script>
-    <script src="validator.js"></script>
+<script src="validator.js"></script>
   </body>
 </html>

@@ -6,13 +6,13 @@ document.getElementById("TarjetaValida").style.display = 'none';
 document.getElementById("TarjetaNoValida").style.display = 'none';
 //variables
 let nombre= document.getElementById ("wname");
-let correo= document.getElementById ("email");
+let selector= document.getElementById ("selector");
 
 //funcion y condicion para cambiar de pagina y traer nombre
 
 function siguiente() {
 // condicion si tiene menos de 0 letras dara un alerta 
-if (nombre.value.length > 0 && correo.value.length > 0){ 
+if (nombre.value.length > 0 && selector.value.length > 0){ 
 var usuario= document.getElementById("wname").value;
 document.getElementById("names").innerHTML="Bienvenid@ "+ usuario;
 //ocultar y mostrar  
