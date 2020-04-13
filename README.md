@@ -33,6 +33,6 @@ Recibimos opiniones del squad en cuanto a la parte visual, por lo cual realizamo
 <a href="https://ibb.co/s6wfVjD"><img src="https://i.ibb.co/QCNgK9q/Prototipo-final.jpg" alt="Prototipo-final" border="0"></a>
 
 
-Puedes probar nuestra aplicación en el siguiente link: 
+Puedes probar nuestra aplicación en el siguiente link: https://cindybarria.github.io/SCL013-card-validation/src/index.html
 
 
