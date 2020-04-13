@@ -4,7 +4,7 @@
 
 En el contexto de la solicitud de crear un validador de tarjeta de crédito, hemos confeccionado "VALIDA FÁCIL", orientado a alguien que quiera verificar si su tarjeta es válida o no, de manera rápida, segura y eficiente, para realizar compras online. 
 
-A continuación mostramos la imégen de la aplicación final:
+A continuación mostramos la imágen de la aplicación final:
 
 <a href="https://ibb.co/18mYJVr"><img src="https://i.ibb.co/Gc5f3wW/Validador-Pantallas.jpg" alt="Validador-Pantallas" border="0"></a>
 
@@ -26,29 +26,13 @@ Mediante el ingreso del número de tarjeta de crédito, el cliente obtiene de vu
 
 ### 4. Descripción del feedback recibido para realizar mejoras:
 
-Recibimos opiniones del squad en cuanto a la parte visual, cambiando los colores de fondo para darle más vida.
-Recibimos feedback de usuarios externos, quienes consideraron la aplicación fácil de usar, y fue apreciada la seguridad al mostrar los números ocultos con "#".
+Recibimos opiniones del squad en cuanto a la parte visual, por lo cual realizamos el cambio del color de fondo. También recibimos feedback de usuarios externos, quienes consideraron la aplicación fácil de usar, y fue apreciada la seguridad al mostrar los números ocultos con "#".
 
 ### 5. Imagen del prototipo final.
 
 <a href="https://ibb.co/s6wfVjD"><img src="https://i.ibb.co/QCNgK9q/Prototipo-final.jpg" alt="Prototipo-final" border="0"></a>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Puedes probar nuestra aplicación en el siguiente link: 
 
 
