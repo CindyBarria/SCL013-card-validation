@@ -28,6 +28,10 @@ En el contexto de la solicituda de crear un validador de tarjeta de crédito, he
 
 5. Imagen del prototipo final.
 
+<a href="https://ibb.co/s6wfVjD"><img src="https://i.ibb.co/QCNgK9q/Prototipo-final.jpg" alt="Prototipo-final" border="0"></a>
+
+
+
 
 
 
