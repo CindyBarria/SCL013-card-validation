@@ -23,7 +23,7 @@ Debe contener lo siguiente:
 
 En el contexto de la solicituda de crear un validador de tarjeta de crédito, hemos confeccionado "VALIDA FÁCIL", orientado a alguien que quiera verificar si su tarjeta es válida o no, de manera rápida, segura y eficiente, para realizar compras online. El usuario es una persona que cumple con las condiciones de poseer una tarjeta de crédito: tiene cuenta bancaria y es mayor de edad.
 
-(<a href="https://ibb.co/HCnmTRj"><img src="https://i.ibb.co/xYJVqwN/01.jpg" alt="01" border="0"></a>)
+<a href="https://ibb.co/18mYJVr"><img src="https://i.ibb.co/Gc5f3wW/Validador-Pantallas.jpg" alt="Validador-Pantallas" border="0"></a>
 
 
 
