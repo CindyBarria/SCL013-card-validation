@@ -1,13 +1,13 @@
 # Proyecto Valida Fácil.
 
-## 2. Resumen del proyecto
+## 1. Resumen del proyecto
 
-En el contexto de la solicituda de crear un validador de tarjeta de crédito, hemos confeccionado "VALIDA FÁCIL", orientado a alguien que quiera verificar si su tarjeta es válida o no, de manera rápida, segura y eficiente, para realizar compras online. 
+En el contexto de la solicitud de crear un validador de tarjeta de crédito, hemos confeccionado "VALIDA FÁCIL", orientado a alguien que quiera verificar si su tarjeta es válida o no, de manera rápida, segura y eficiente, para realizar compras online. 
 
 <a href="https://ibb.co/18mYJVr"><img src="https://i.ibb.co/Gc5f3wW/Validador-Pantallas.jpg" alt="Validador-Pantallas" border="0"></a>
 
 
-## 3. Investigaci+on UX
+## 2. Investigaci+on UX
 
 ### 1.Usuarios y Objetivos en relación con el producto:
 
