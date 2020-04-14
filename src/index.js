@@ -8,12 +8,12 @@ let nombre= document.getElementById ("wname");
 let selector= document.getElementById ("selector");
 
 //funcion y condicion para cambiar de pagina y traer nombre
-var botonSiguiente = document.getElementById("next");
+let botonSiguiente = document.getElementById("next");
 botonSiguiente.addEventListener ("click", siguiente);
 function siguiente() {
 // condicion si tiene menos de 0 letras dara un alerta
 if (nombre.value.length > 0 && selector.value.length > 0){
-var usuario= document.getElementById("wname").value;
+let usuario= document.getElementById("wname").value;
 document.getElementById("names").innerHTML="Bienvenid@ "+ usuario;
 //ocultar y mostrar
   document.getElementById("Portada").style.display = 'none';
@@ -24,17 +24,19 @@ else{
     }
 }
 
-var botonVolver = document.getElementById("volveralinicio");
+let botonVolver = document.getElementById("volveralinicio");
 botonVolver.addEventListener ("click", reload);
 // Funciones para cambiar y refrescar pagina
 function reload() {
   document.getElementById("TarjetaValida").style.display = 'none';
   document.getElementById("Portada").style.display='block';
+  window.location.reload()
 }
 
-var botonVolverInicio = document.getElementById("volver");
+let botonVolverInicio = document.getElementById("volver");
 botonVolverInicio.addEventListener ("click", volver);
 function volver() {
   document.getElementById("TarjetaNoValida").style.display = 'none';
   document.getElementById("Portada").style.display='block';
+window.location.reload()
 }
