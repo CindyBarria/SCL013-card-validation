@@ -6,34 +6,34 @@
     <title>Validacion Tarjeta </title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>   
+  <body>
  <div class= "col-md-8" >
 
 
- <! -- Ventana de Portada-->  
+ <!-- Ventana de Portada-->
   <div id="Portada">
-      <div class= "borde"> 
-        <img src= "https://i.ibb.co/M1HLp0C/LOGO-AMARILLO.png"></img>
+      <div class= "borde">
+        <img src= "https://i.ibb.co/M1HLp0C/LOGO-AMARILLO.png"/>
       <form >
-        <p> Ingrese sus datos </p><br>  
+        <p> Ingrese sus datos </p><br>
         <input type="text" id="wname" placeholder="Ingrese Nombre"><br>
         <select id="selector" name="Tipo de Tarjeta" >
-        <option value=""selected disabled >Seleccione Tarjeta </option>
-        <option value="1">Mastercard 
-        <option value="2">Visa
-        <option value="3">American Express.
-        </select> 
+        <option value="">Seleccione Tarjeta </option>
+        <option value="1">Mastercard </option>
+        <option value="2">Visa</option>
+        <option value="3">American Express.</option>
+        </select>
       </form>
-        <input type="button" id= "next" onclick='siguiente()' value="Siguiente">
-        </div> 
-  </div>   
+        <input type="button" id= "next"  value="Siguiente">
+        </div>
+  </div>
 
-<! -- Ventana de Validador-->
+<!-- Ventana de Validador-->
   <div id="Validador">
     <div class= "borde">
-      <img src="https://i.ibb.co/M1HLp0C/LOGO-AMARILLO.png"></img>
+      <img src="https://i.ibb.co/M1HLp0C/LOGO-AMARILLO.png"/>
       <form>
-        <p id="names"></p><br>    
+        <p id="names"></p><br>
         <label for="numberCard">Ingrese Nº de Tarjeta</label><br>
         <input type="text" inputmode="numeric" id="numberCard" maxlength="16" placeholder="1111-2222-3333-4444"><br>
       </form>
@@ -43,21 +43,22 @@
 
   </div>
 
-<! -- Ventana con mensaje de "Tu tarjeta es Valida"--> 
+<!-- Ventana con mensaje de "Tu tarjeta es Valida"-->
   <div id="TarjetaValida">
-    <div class= "borde"> 
-      <img src= "https://i.ibb.co/M1HLp0C/LOGO-AMARILLO.png"></img>
+    <div class= "borde">
+      <img src= "https://i.ibb.co/M1HLp0C/LOGO-AMARILLO.png"/>
       <h2 id= "tvalida"></h2>
-      <button id="volveralinicio" onclick='location.reload()' >Volver</button>
+      <button id="volveralinicio"  >Volver</button>
     </div>
-  </div>   
+  </div>
 
-<! -- Ventana con mensaje de "Tu tarjeta NO es Valida"-->
+<!-- Ventana con mensaje de "Tu tarjeta NO es Valida"-->
   <div id="TarjetaNoValida">
-    <div class= "borde"> 
-    <img src= "https://i.ibb.co/M1HLp0C/LOGO-AMARILLO.png"></img>
+    <div class= "borde">
+    <img src= "https://i.ibb.co/M1HLp0C/LOGO-AMARILLO.png"/>
     <h2 id= "tNovalida"></h2>
-    <button id="volveralinicio" onclick='location.reload()' >Volver</button>
+    <button id="volver" >Volver</button>
+    </div>
   </div>
 
 
