@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home.js";
-import {Validador} from "./pages/Validador.js";
-import {Respuesta} from "./pages/Respuesta.js";
+import Home from "./pages/Home.jsx";
+import {Validador} from "./pages/Validador.jsx";
+import {Respuesta} from "./pages/Respuesta.jsx";
 
 
 
