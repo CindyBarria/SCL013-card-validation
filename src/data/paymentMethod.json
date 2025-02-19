@@ -1,0 +1,6 @@
+[
+    { "id": "", "name": "Seleccione Tarjeta" },
+    { "id": "1", "name": "Mastercard" },
+    { "id": "2", "name": "Visa" },
+    { "id": "3", "name": "American Express" }
+  ]
