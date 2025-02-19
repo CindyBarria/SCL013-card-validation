@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Validacion Tarjeta </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+ <div class= "col-md-8" >
+
+
+ <!-- Ventana de Portada-->
+  <div id="Portada">
+      <div class= "borde">
+        <img src= "https://i.ibb.co/M1HLp0C/LOGO-AMARILLO.png"/>
+      <form >
+        <p> Ingrese sus datos </p><br>
+        <input type="text" id="wname" placeholder="Ingrese Nombre"><br>
+        <select id="selector" name="Tipo de Tarjeta" >
+        <option value="">Seleccione Tarjeta </option>
+        <option value="1">Mastercard </option>
+        <option value="2">Visa</option>
+        <option value="3">American Express.</option>
+        </select>
+      </form>
+        <input type="button" id= "next"  value="Siguiente">
+        </div>
+  </div>
+
+<!-- Ventana de Validador-->
+  <div id="Validador">
+    <div class= "borde">
+      <img src="https://i.ibb.co/M1HLp0C/LOGO-AMARILLO.png"/>
+      <form>
+        <p id="names"></p><br>
+        <label for="numberCard">Ingrese Nº de Tarjeta</label><br>
+        <input type="text" inputmode="numeric" id="numberCard" maxlength="16" placeholder="1111-2222-3333-4444"><br>
+      </form>
+      <input type="submit" id= "validar" value= "Validar">
+    </div>
+  </div>
+
+  </div>
+
+<!-- Ventana con mensaje de "Tu tarjeta es Valida"-->
+  <div id="TarjetaValida">
+    <div class= "borde">
+      <img src= "https://i.ibb.co/M1HLp0C/LOGO-AMARILLO.png"/>
+      <h2 id= "tvalida"></h2>
+      <button id="volveralinicio"  >Volver</button>
+    </div>
+  </div>
+
+<!-- Ventana con mensaje de "Tu tarjeta NO es Valida"-->
+  <div id="TarjetaNoValida">
+    <div class= "borde">
+    <img src= "https://i.ibb.co/M1HLp0C/LOGO-AMARILLO.png"/>
+    <h2 id= "tNovalida"></h2>
+    <button id="volver" >Volver</button>
+    </div>
+  </div>
+
+
+    <script src="index.js"></script>
+<script src="validator.js"></script>
+  </body>
+</html>
