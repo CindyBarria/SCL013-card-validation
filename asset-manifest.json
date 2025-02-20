@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/SCL013-card-validation/static/css/main.8fd4b3e9.css",
-    "main.js": "/SCL013-card-validation/static/js/main.fd08f92b.js",
-    "static/media/LOGO-AMARILLO.png": "/SCL013-card-validation/static/media/LOGO-AMARILLO.e547bf4ecbebd03e3459.png",
-    "index.html": "/SCL013-card-validation/index.html",
-    "main.8fd4b3e9.css.map": "/SCL013-card-validation/static/css/main.8fd4b3e9.css.map",
-    "main.fd08f92b.js.map": "/SCL013-card-validation/static/js/main.fd08f92b.js.map"
+    "main.css": "/SCL013-card-validation/card-validator-react/static/css/main.8fd4b3e9.css",
+    "main.js": "/SCL013-card-validation/card-validator-react/static/js/main.92736a81.js",
+    "static/media/LOGO-AMARILLO.png": "/SCL013-card-validation/card-validator-react/static/media/LOGO-AMARILLO.e547bf4ecbebd03e3459.png",
+    "index.html": "/SCL013-card-validation/card-validator-react/index.html",
+    "main.8fd4b3e9.css.map": "/SCL013-card-validation/card-validator-react/static/css/main.8fd4b3e9.css.map",
+    "main.92736a81.js.map": "/SCL013-card-validation/card-validator-react/static/js/main.92736a81.js.map"
   },
   "entrypoints": [
     "static/css/main.8fd4b3e9.css",
-    "static/js/main.fd08f92b.js"
+    "static/js/main.92736a81.js"
   ]
 }
