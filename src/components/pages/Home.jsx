@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../atoms";
 import "../molecules";
-import paymentMethod from "../../data/paymentMethod.json"
+import paymentMethod from "../../data/paymentMethod.json";
 
 export default function Home() {
   const [value, setValue] = useState("");
@@ -32,14 +32,11 @@ export default function Home() {
   return (
     <div>
       <div>
-          <banner-top alt="logo" />
-          <div>
-            <simple-text name="Ingrese sus datos" />
-            <input-text ref={inputRef} placeholder="Ingrese nombre" />
-            <select-option options = {paymentMethod}  />
-          </div>
-          <button-primary onClick={handleNext} buttonText="Siguiente" />
+        <simple-text name="Ingrese sus datos" />
+        <input-text ref={inputRef} placeholder="Ingrese nombre" />
+        <select-option options={paymentMethod} />
       </div>
+      <button-primary onClick={handleNext} buttonText="Siguiente" />
     </div>
   );
 }

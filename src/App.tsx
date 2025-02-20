@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home.jsx";
-import { Validador } from "./components/pages/Validador.jsx";
-import { Respuesta } from "./components/pages/Respuesta.jsx";
+import Validador from "./components/pages/Validador.jsx";
+import Respuesta from "./components/pages/Respuesta.jsx";
 import Layout from "./components/Layout.jsx";
 
 export default function App() {
@@ -10,7 +10,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="validator" element={<Validador />} />
+          <Route path="validate" element={<Validador />} />
           <Route path="response" element={<Respuesta />} />
         </Route>
       </Routes>
