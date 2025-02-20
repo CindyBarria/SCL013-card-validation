@@ -4,10 +4,10 @@ export class SimpleText extends LitElement {
   // Estilos con `static get styles()`
   static get styles() {
     return css`
-      input {
-        display: block;
-        padding: 10px;
-        color: #414141;
+      p {
+      color: white;
+        font-size: larger;
+        font-family: 'calibri';
       }
     `;
   }

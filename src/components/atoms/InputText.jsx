@@ -16,6 +16,8 @@ export class InputText extends LitElement {
     return {
       placeholder: { type: String },
       value: { type: String },
+      maxlength: { type: Number },
+      type: { type: String }, // text o number
     };
   }
 
@@ -23,10 +25,20 @@ export class InputText extends LitElement {
     super();
     this.placeholder = "placeholder";
     this.value = "";
+    this.maxlength = 16;
+    this.type = "text"; // Valor por defecto
   }
 
   handleInput(event) {
-    this.value = event.target.value;
+    let inputValue = event.target.value;
+
+    if (this.type === "number") {
+      inputValue = inputValue.replace(/\D/g, "").slice(0, this.maxlength);
+    } else {
+      inputValue = inputValue.slice(0, this.maxlength);
+    }
+
+    this.value = inputValue;
     this.dispatchEvent(
       new CustomEvent("input-change", {
         detail: this.value,
@@ -34,15 +46,20 @@ export class InputText extends LitElement {
         composed: true,
       })
     );
+
+    this.requestUpdate();
   }
 
   render() {
     return html`
       <input
-        type="text"
         placeholder="${this.placeholder}"
         .value="${this.value}"
         @input="${this.handleInput}"
+        maxlength="${this.maxlength}"
+        type="${this.type}"
+        ${this.type === "number" ? "inputmode='numeric' pattern='[0-9]*'" : ""}
+        ${this.type === "number" ? "inputmode='numeric' pattern='[0-9]*'" : ""}
       />
     `;
   }
