@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/pages/Home.jsx";
+import Home from "./components/pages/Home";
 import Validador from "./components/pages/Validador.jsx";
 import Respuesta from "./components/pages/Respuesta.jsx";
 import Layout from "./components/templates/Layout.jsx";

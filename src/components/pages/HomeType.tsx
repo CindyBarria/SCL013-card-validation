@@ -1,11 +1,11 @@
-import React, { useEffect, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import React from "react";
+//import { useNavigate } from "react-router-dom";
 import "../atoms";
 import "../molecules";
-import paymentMethod from "../../data/paymentMethod.json";
+//import paymentMethod from "../../data/paymentMethod.json";
 
 export default function Home() {
-  const [value, setValue] = useState<string>("");
+ /*  const [value, setValue] = useState<string>("");
   const inputRef = useRef<HTMLElement | null>(null);
 
   const navigate = useNavigate();
@@ -29,7 +29,7 @@ export default function Home() {
 
   const handleNext = () => {
     navigate("/validate", { state: { value } });
-  };
+  }; */
 
   return (
     <div>
