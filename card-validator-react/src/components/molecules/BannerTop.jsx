@@ -1,5 +1,5 @@
 import { html, LitElement } from "lit";
-import logo from "../../assets/images/LOGO-AMARILLO.png";
+import logo from "../../assets/images/LOGO-AMARILLO.webp";
 export class BannerTop extends LitElement {
   // Definir propiedades de la clase
   static get properties() {
